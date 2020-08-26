@@ -15,7 +15,7 @@ custom_libraries::USART hc05(USART1,
                             TX_PIN,
                             BAUDRATE);
 
-char GET_BLUETOOTH_VERSION[] = "AT+VERSION?r\n";
+char GET_BLUETOOTH_VERSION[] = "AT+NAME?\r\n";
 
 int main(void) {
 
